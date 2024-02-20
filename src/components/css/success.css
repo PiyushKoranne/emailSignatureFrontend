@@ -1,0 +1,212 @@
+.content-container{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.message-container{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 10px;
+}
+.message-container img {
+	width: 100px;
+	height: 100px;
+}
+.message-container h5{
+	font-size: 32px;
+	line-height: 48px;
+	font-weight: 500;
+	color: #484848;
+}
+.template-container{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: flex-start;
+	padding-top: 25px;
+}
+.template-container .template-img-wr{
+	width: 600px;
+	background-color: #ececec;
+	max-height: 249px;
+}
+.template-container .template-details{
+	padding: 10px 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: flex-start;
+	width: 50%;
+}
+.template-details p{
+	line-height: 24px;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+
+.template-details button{
+	background-color: #fff;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.18);
+	padding: 20px 24px;
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	font-weight: 600;
+	gap: 10px;
+	margin-top: 25px;
+}
+.template-details .other-platforms-wr{
+	width: 100%;
+	display: flex;
+	align-items: start;
+	justify-content: start;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.create-container{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+.create-container button:nth-child(2){
+	background-color: #fff;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.18);
+	padding: 21px 24px;
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	font-weight: 600;
+	gap: 10px;
+	transition: all 400ms ease;
+	margin-left: 12px;
+	width: 70%;
+	justify-content: center;
+	color: #5B39E7;
+}
+.create-container button:nth-child(2):hover{
+	background-color: #5B39E7;
+	color: #fff;
+}
+.create-container button:hover{
+	color: #625bf8;
+}
+.steps-container h2 span{
+	padding-left: 11px;
+}
+.add-steps h3{
+	font-size: 25px;
+	line-height: 45px;
+}
+.add-steps{
+	padding-top: 30px;
+	width: 100%;
+}
+.add-steps li{
+	font-size: 18px;
+    line-height: 44px;
+	font-weight: 600;
+}
+.stages-container div{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+	gap: 140px;
+	padding: 40px 0;
+}
+.add-steps .stages-container:nth-child(4) div ,.add-steps .stages-container:nth-child(5) div{
+flex-direction: column;
+gap: 8px;
+}
+.steps-container{
+	margin-top: 30PX;
+}
+.stages-container img{
+	border-radius: 10px;
+	box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.18);
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-tabs >.ant-tabs-nav .ant-tabs-nav-wrap{
+	justify-content: center;
+}
+.tabber-container{
+	margin-top: 5%;
+	width: 100%;
+	display: flex;
+	gap: 20px;
+}
+.ant-tabs-tab-active .tabber-icon{
+	box-Shadow:4px 4px 12px 4px rgba(0,0,0,0.2);
+}
+.tabber-container .ant-tabs-ink-bar{
+	display: none;
+}
+.add-steps .template-img-wr{
+	width: 600px;
+    background-color: #ececec;
+    height: 249px;
+}
+.procedure img{
+	width:60%;
+}
+.center-wr {
+    max-width: 1345px;
+    width: 94%;
+    margin: 0 auto;
+}
+.template-img-wr{
+	width: 600px;
+	background-color: #ececec;
+	height: 249px;
+}
+
+.temp-cont{
+	margin: 0 auto 40px;
+    width: 45%;
+    overflow: auto;
+    overflow-x: hidden;
+	/* border: 1px solid #484848; */
+	box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.1);
+}
+.finish-pg-cont{
+	padding: 50px 0 145px;
+}
+div#customScroll::-webkit-scrollbar {
+    width: 4px; /* Set the width of the scrollbar */
+}
+
+div#customScroll::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+}
+
+div#customScroll::-webkit-scrollbar-thumb {
+    background:rgba(0,0,0,0.2); /* Thumb color */
+}
+
+div#finishScroll::-webkit-scrollbar {
+    width: 4px; /* Set the width of the scrollbar */
+}
+
+div#finishScroll::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+}
+
+div#finishScroll::-webkit-scrollbar-thumb {
+    background:rgba(0,0,0,0.2); /* Thumb color */
+}
+
+/* div#customScroll::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb color on hover */
+	#coolBtn .colBtn3 button.learn-more .button-text {
+		left: 21px;
+	}
+	

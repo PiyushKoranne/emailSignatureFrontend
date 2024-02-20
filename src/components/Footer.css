@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.center-wrapper{
+    max-width: 1328px;
+    margin: 0 auto;
+}
+.common-footer-wrapper{
+    background-color: #000;
+    color: #5C6074;
+    padding: 20px 0;
+    position: relative;
+}
+.footer-icons-container{
+    display: flex;
+    gap: 13px;
+    padding: 5px 0;
+}
+.footer-heading{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 80px;
+}
+.footer-heading img {
+	width: 250px;
+}
+.common-footer-wrapper h4 ,.footer-links li{
+    font-size: 16px;
+	padding: 15px 0;
+	font-weight: 600;
+}
+.footer-gml{
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 27px;
+    font-weight: 600;
+}
+.copyright-container{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+ padding: 30px 0;
+ position: relative;
+}
+.copyright-container a ,.copyright-container  h5{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.copyright-container::before{
+content: '';
+border-top: 3px solid #1B1C22;
+width: 100%;
+position: absolute;
+bottom: 82px;   
+}
+.footer-links a{
+    text-decoration: none;
+    color: #696c7a;
+}
+.footer-links li{
+    list-style: none;
+    padding: 14px 0;
+    font-size: 16px;
+	font-weight: 400;
+}
+.footer-container-for{
+    display: flex;
+    padding-bottom: 90px;
+}
+.footer-links{
+    display: flex;
+    gap: 80px;
+}
+.footer-icons-container img{
+    padding: 8px;
+	width: 45px;
+}
+.footer-icons-container a{
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	place-content: center;
+}
+.footer-icons-container a::after{
+    content: "";
+	position: absolute;
+	bottom: -45px;
+	left: 0px;
+	width: 45px;
+	height: 45px;
+	display: block;
+	background-color: rgba(255,255,255,0.2);
+	transition: all 300ms ease;
+	border-radius: 50%;
+}
+.footer-icons-container a:hover:after{
+	transform: translateY(-45px)
+}
+.footer-links li{
+    position: relative;
+}
+.footer-links li::before{
+content: '';
+background-image: url(/public/assets/images/icons8-email-15.png);
+height: 15px;
+width: 15px;
+display: inline-block;
+rotate: 320deg;
+position: absolute;
+left: -21px;
+bottom: 17px;
+}
+
+.footer-info-container{
+    position: relative;
+    margin-right: 192px;
+    text-align: left;
+}
+
+.footer-info-container::after{
+    content: '';
+    border-right: 2px solid #2b2b2b;
+    width: 20%;
+    height: 130%;
+    display: inline-block;
+    position: absolute;
+    top: -17px;
+   
+}
+.for-clippath{
+    position: absolute;
+    clip-path: polygon(47% 86%, 0 0, 100% 0);
+    height: 500px;
+    width: 100%;
+    background-color:#1d1d1d;
+    top: 0;
+}
+
+.common-footer-container{
+    z-index: 10;
+    position: relative;
+}
+.copyright-container a:hover,.footer-links a:hover  {
+    color: #fff;
+}

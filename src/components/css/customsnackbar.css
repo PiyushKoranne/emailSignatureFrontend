@@ -1,0 +1,41 @@
+.snackbar-container {
+	padding: 25px 25px 0;
+	border-radius: 15px;
+	width: 350px;
+	box-shadow: 4px 4px 12px 4px rgba(0,0,0,0.22);
+}
+
+.snackbar-content {
+	font-weight: 600;
+	padding: 13px 0 30px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #fff;
+
+}
+
+.snackbar-header {
+	align-items: center;
+	justify-content: start;
+	position: relative;
+	display: flex;
+	gap: 10px;
+}
+
+
+.close-btn img {
+	height: 15px;
+	width: 15px;
+}
+
+.close-btn {
+	position: absolute;
+	right: 10px;
+}
+
+.snackbar-header h4 {
+	padding: 0 4px;
+	color: #fff;
+	font-size: 18px;
+
+}

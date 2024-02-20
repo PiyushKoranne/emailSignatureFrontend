@@ -1,0 +1,129 @@
+.template-data-blk table{
+	box-sizing: content-box;
+}
+.template-data-blk tr{
+	box-sizing: content-box;
+}
+.template-data-blk td{
+	box-sizing: content-box;
+}
+.template-data-blk span{
+	box-sizing: content-box;
+}
+.template-data-blk img{
+	box-sizing: content-box;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 25px;
+    width: 80%;
+    max-width: 690px;
+    position: relative;
+}
+
+.close-batn {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #e74c3c;  /* You can change this to any color you prefer */
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+    background-color: #c0392b;  /* Darker shade for hover effect */
+}
+
+.modal a{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #F99417;
+    padding: 11px 35px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+}
+.browse-temp-mod-btn{
+background-color: #008170 !important;
+padding: 11px 47px !important;
+}
+.create-temp-mod-btn{
+background-color: #6440FB !important;
+padding: 11px 47px !important;
+}
+.modal a::after{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transition: 0.5s;
+    z-index: -1;
+}
+.modal a:hover{
+    color: #000;
+    outline: 1px solid rgba(0,0,0,0.11);
+}
+.modal a:hover::after {
+    width: 100%;
+    right: auto;
+    left: 0;
+
+}
+.modal h3 {
+font-size: 22px;
+line-height: 24px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 20px 0px 2px;
+}
+.modal h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757B97;
+    }
+    .modal h2{
+        display: flex;
+align-items: center;
+padding:  0 10px;
+justify-content: center;
+    }
+    .modal h2 span{
+        padding: 0 20px;
+    }
+
+	.modal-video-container{
+		margin: 20px 0;
+	}
+
+    
